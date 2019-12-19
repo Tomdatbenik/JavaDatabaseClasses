@@ -3,6 +3,9 @@ package database.models.data;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Author Tom van Kaathoven
+ */
 public class DataCollection {
 
     public final List<Data> dataList = new ArrayList<>();

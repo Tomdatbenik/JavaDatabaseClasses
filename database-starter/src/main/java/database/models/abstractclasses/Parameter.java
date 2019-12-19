@@ -1,5 +1,8 @@
 package database.models.abstractclasses;
 
+/**
+ * Author Tom van Kaathoven
+ */
 public abstract class Parameter {
     private Object value;
 

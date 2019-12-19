@@ -1,5 +1,8 @@
 package database.models.data;
 
+/**
+ * Author Tom van Kaathoven
+ */
 public class Data {
 
     private String name;

@@ -13,6 +13,9 @@ import java.util.Properties;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+/**
+ * Author Tom van Kaathoven
+ */
 public abstract class Database {
     protected final Properties properties = new Properties();
 

@@ -8,6 +8,9 @@ import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+/**
+ * Author Tom van Kaathoven
+ */
 public class LocalhostDatabase extends MySqlDatabase {
 
     public LocalhostDatabase() {
