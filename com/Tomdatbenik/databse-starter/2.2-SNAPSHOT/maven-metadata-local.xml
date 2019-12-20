@@ -2,22 +2,22 @@
 <metadata modelVersion="1.1.0">
   <groupId>com.Tomdatbenik</groupId>
   <artifactId>databse-starter</artifactId>
-  <version>2.0-SNAPSHOT</version>
+  <version>2.2-SNAPSHOT</version>
   <versioning>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
-    <lastUpdated>20191220122722</lastUpdated>
+    <lastUpdated>20191220124611</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>2.0-SNAPSHOT</value>
-        <updated>20191220122722</updated>
+        <value>2.2-SNAPSHOT</value>
+        <updated>20191220124611</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>2.0-SNAPSHOT</value>
-        <updated>20191220122722</updated>
+        <value>2.2-SNAPSHOT</value>
+        <updated>20191220124611</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
