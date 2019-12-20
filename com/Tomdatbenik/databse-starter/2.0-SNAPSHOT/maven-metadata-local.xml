@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
   <groupId>com.Tomdatbenik</groupId>
-  <artifactId>database-starter</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <artifactId>databse-starter</artifactId>
+  <version>2.0-SNAPSHOT</version>
   <versioning>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
-    <lastUpdated>20191219234240</lastUpdated>
+    <lastUpdated>20191220122722</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0-SNAPSHOT</value>
-        <updated>20191219234240</updated>
+        <value>2.0-SNAPSHOT</value>
+        <updated>20191220122722</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0-SNAPSHOT</value>
-        <updated>20191219234240</updated>
+        <value>2.0-SNAPSHOT</value>
+        <updated>20191220122722</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
