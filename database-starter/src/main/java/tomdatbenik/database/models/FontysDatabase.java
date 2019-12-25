@@ -1,6 +1,8 @@
-package database.models;
+package tomdatbenik.database.models;
 
-import database.models.abstractclasses.mysql.MySqlDatabase;
+
+
+import tomdatbenik.database.models.abstractClasses.mySql.MySqlDatabase;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -8,21 +10,18 @@ import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- * Author Tom van Kaathoven
- */
-public class LocalhostDatabase extends MySqlDatabase {
+public class FontysDatabase extends MySqlDatabase {
 
-    public LocalhostDatabase() {
+    public FontysDatabase() {
         super();
     }
 
     @Override
     protected Connection getConnection() {
         try {
-            String url = properties.getProperty("localhost-server");
-            String username = properties.getProperty("localhost-username");
-            String password = properties.getProperty("localhost-password");
+            String url = properties.getProperty("fontys-server");
+            String username = properties.getProperty("fontys-username");
+            String password = properties.getProperty("fontys-password");
 
             return DriverManager.getConnection(
                     url,

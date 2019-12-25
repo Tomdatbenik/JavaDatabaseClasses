@@ -1,6 +1,7 @@
-package database.models.abstractclasses.mysql;
+package tomdatbenik.database.models.abstractClasses.mySql;
 
-import database.models.abstractclasses.Parameter;
+
+import tomdatbenik.database.models.abstractClasses.Parameter;
 
 /**
  * Author Tom van Kaathoven

@@ -1,4 +1,4 @@
-package database.models.data;
+package tomdatbenik.database.models.data;
 
 /**
  * Author Tom van Kaathoven

@@ -1,12 +1,13 @@
-package database.models.abstractclasses;
+package tomdatbenik.database.models.abstractClasses;
 
-import database.models.abstractclasses.mysql.MySqlDatabase;
-import database.models.data.DataCollection;
+import tomdatbenik.database.models.abstractClasses.mySql.MySqlDatabase;
+import tomdatbenik.database.models.data.DataCollection;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.List;
 import java.util.Properties;
@@ -44,6 +45,16 @@ public abstract class Database {
             Logger.getLogger(Database.class.getName()).log(Level.SEVERE, e.getMessage(), e);
         }
 
+        return null;
+    }
+
+    protected void setParameter(PreparedStatement cst, Parameter parameter) {
+    }
+
+    protected void setParameters(PreparedStatement cst, List<Parameter> parameters) {
+    }
+
+    public DataCollection excecuteQuery(String query) {
         return null;
     }
 

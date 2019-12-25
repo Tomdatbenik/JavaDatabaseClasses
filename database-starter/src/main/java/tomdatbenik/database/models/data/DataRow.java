@@ -1,14 +1,14 @@
-package database.models.data;
+package tomdatbenik.database.models.data;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Author Tom van Kaathoven
- */
-public class DataCollection {
+public class DataRow {
+    private final List<Data> dataList = new ArrayList<>();
 
-    public final List<Data> dataList = new ArrayList<>();
+    public List<Data> getDataList() {
+        return dataList;
+    }
 
     public Data getDataByName(String name)
     {

@@ -1,9 +1,6 @@
-package database.models.abstractclasses;
+package tomdatbenik.database.models.abstractClasses.mySql;
 
-/**
- * Author Tom van Kaathoven
- */
-public abstract class Parameter {
+public abstract class OutParameter {
     private Object value;
 
     public Object getValue() {
@@ -14,7 +11,7 @@ public abstract class Parameter {
         this.value = value;
     }
 
-    public Parameter(Object value) {
+    public OutParameter(Object value) {
         this.value = value;
     }
 }
